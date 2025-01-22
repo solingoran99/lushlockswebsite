@@ -1,0 +1,41 @@
+
+
+.location-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.location-container h3 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.location-container p {
+    font-size: 18px;
+    margin-top: 20px; 
+    color: #333;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px; 
+    width: 100%;
+    max-width: 500px; 
+    height: 350px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.location-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}

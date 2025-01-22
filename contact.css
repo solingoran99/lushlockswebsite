@@ -1,0 +1,96 @@
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: burlywood;
+    margin-bottom: 15px;
+    border-bottom: 2px solid burlywood;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.contact-info p strong {
+    color: #333;
+}
+
+.contact-info a {
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+.opening-hours {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.opening-hours h2 {
+    font-size: 24px;
+    color: burlywood;
+    margin-bottom: 15px;
+    border-bottom: 2px solid burlywood;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.opening-hours p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.opening-hours p strong {
+    color: #333;
+}
+
+
+.contact-info a,
+.opening-hours a {
+    color: burlywood;
+    font-weight: 600;
+}
+
+.contact-info a:hover,
+.opening-hours a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .contact-info, .opening-hours {
+        padding: 15px;
+    }
+
+    .contact-info h2, .opening-hours h2 {
+        font-size: 22px;
+    }
+
+    .contact-info p, .opening-hours p {
+        font-size: 16px;
+    }
+
+}

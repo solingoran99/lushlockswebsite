@@ -1,0 +1,47 @@
+#haircut, #salon_room {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-container {
+    max-width: 800px; 
+    margin: 0 auto;   
+    padding: 20px;
+    text-align: left;  
+    font-size: 20px;
+    line-height: 1.6;
+    width: 100%; 
+}
+
+.content-container p {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: 18px; 
+    color: #333; 
+    max-width: 750px; 
+}
+
+.content-container h2 {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+}
